@@ -1,0 +1,19 @@
+name: OMF Publish
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - module.json
+      - content/**
+      - assets/**
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: omf-dev/omf-kit/packages/github-action@main
+        with:
+          indexer_url: ${{ secrets.OMF_INDEXER_URL }}
