@@ -1,15 +1,21 @@
 {
   "format_version": "0.1",
-  "title": "my module",
+  "title": "my module (Remix)",
   "creators": [
     {
       "name": "Ed"
     }
   ],
   "license": "CC-BY-4.0",
-  "derived_from": [],
+  "derived_from": [
+    {
+      "type": "derived_from",
+      "target": "omf:sha256:358e8ee0266c3f429e54e008f82aefd822e93c6c37be98f832ee3893bb880983",
+      "description": "Remixed via OMF web app"
+    }
+  ],
   "external_resources": [],
-  "module_alias": "ewaisanen/my-module12",
+  "module_alias": "ewaisanen/my-module12-remix",
   "version_label": "1.0.0",
   "release_channel": "stable",
   "discovery": {
@@ -23,6 +29,7 @@
       "omf-myst-0.1"
     ]
   },
-  "content_hash": "sha256:358e8ee0266c3f429e54e008f82aefd822e93c6c37be98f832ee3893bb880983",
-  "canonical_id": "omf:sha256:358e8ee0266c3f429e54e008f82aefd822e93c6c37be98f832ee3893bb880983"
+  "content_hash": "",
+  "canonical_id": "",
+  "source_repository": "https://github.com/ewaisanen/my-module12-remix"
 }
